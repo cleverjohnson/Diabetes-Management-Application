@@ -102,6 +102,7 @@ def fhir_to_record(data):
         patient_outcomes=data['patient_outcomes']
     )
 
+
 @app.route('/add_glucose_record', methods=['POST'])
 def add_glucose_record():
     session = Session()
